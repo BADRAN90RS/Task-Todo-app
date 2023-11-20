@@ -40,7 +40,7 @@ const addTask = (e) => {
   return (
     <div className='container text-center m-3'>
         <h1>Today's tasks</h1>
-        <h3>( To do )</h3>
+        <h3>( To do ) </h3>
         <h4>NUMBER OF TASKS REMAINING : 
             {
                 list.length === 0 ? "5" :
