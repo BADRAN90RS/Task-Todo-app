@@ -52,7 +52,7 @@ const addTask = (e) => {
         </h4>
         <form id='form'>
         <input type='text' placeholder='add new task' className='form-control' onChange={(e)=>getTask(e)}/>
-        <button className='btn btn-primary mt-2' onClick={addTask}>Add new task</button>
+        <button className='btn btn-primary mt-2' onClick={addTask}>submit new task</button>
 
         </form>
         
